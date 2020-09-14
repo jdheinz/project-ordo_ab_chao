@@ -44,6 +44,8 @@
      1. Anaconda package (with Anaconda Navigator, Spyder are only needed) OR
      2. sublime text IDE OR
      3. PyCharm IDE
+  > NOTE: This project was made using the Anaconda package, and Anaconda prompt. So the Anaconda prompt is 
+  recommended because of recent problems trying to build the project from a regular command prompt.
   - create a directory, such as 'dev' or 'development'
   - get inside the 'dev' directory by using: cd dev
   - then run the command line using: git clone (address of clone/download for this repository)
@@ -77,6 +79,8 @@
  
   
 ## Known bugs: <h2>
+  - There was a recent problem trying to build this project from a regular command prompt. It could be only run from
+an Anaconda prompt.
   - When using Windows 10, trying to sign into the django-admin site in Google Chrome or Google Chromium causes the browser to load indefinitely. Chrome/Chromium had no issues when running 'localhost:8000', but would never load for django-admin login page. For the Django-admin login page, use another browser like Internet Explorer, Safari, Mozilla, Bing, etc...
   - If you run 'python manage.py runserver' and get an error that reads 'Error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions', instead use: python manage.py runserver 8080 (AND make sure that you run localhost:8080 instead of localhost:8000)
   
